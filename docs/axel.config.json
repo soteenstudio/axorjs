@@ -1,0 +1,9 @@
+{
+  "routes": {
+    "/": "pages/Home.jsx",
+    "/about": "pages/About.jsx",
+    "/counter": "pages/Counter.jsx"
+  },
+  "output": "dist/index.html",
+  "title": "Core Engine Documentation & Specification"
+}

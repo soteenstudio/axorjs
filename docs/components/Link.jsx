@@ -1,0 +1,9 @@
+<a
+  href={props.href}
+  color="#ffffff"
+  text-decoration="none"
+  hover:color="#4e4e5a"
+  hover:text-decoration="underline"
+>
+  {props.text}
+</a>;
