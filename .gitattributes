@@ -1,0 +1,5 @@
+*.config.js          linguist-detectable=false
+build-script.js      linguist-detectable=false
+.prettierrc          linguist-detectable=false
+*.jsx                linguist-detectable=false
+*.d.ts               linguist-documentation=true
