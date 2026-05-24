@@ -1,0 +1,27 @@
+name: Report a bug
+description: Report any bugs you encounter.
+title: "[BUG] Short title of the bug"
+labels: [bug]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping with the bug report! Explain the bugs you want as clearly as possible.
+
+  - type: input
+    id: what-happened
+    attributes:
+      label: What happened?
+      placeholder: Explain the bug...
+    validations:
+      required: true
+
+  - type: input
+    id: expected
+    attributes:
+      label: What should it be?
+      placeholder: Describe the behavior you expect.
+    validations:
+      required: true
