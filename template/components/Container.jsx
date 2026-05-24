@@ -1,0 +1,12 @@
+<div
+  class="app-viewport"
+  background-color="#0f0f11"
+  height="100vh"
+  display="flex"
+  flex-direction="column"
+  justify-content="center"
+  align-items="center"
+  margin="0"
+>
+  {props.children}
+</div>;

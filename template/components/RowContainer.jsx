@@ -1,0 +1,3 @@
+<div display="flex" justify-content="center" align-items="center" gap="8px">
+  {props.children}
+</div>;

@@ -1,6 +1,6 @@
-import { parseHTML } from './parser';
-import { compileToJS } from './compiler';
-import { generateHTML } from './template';
+import { parseHTML } from './parser.js';
+import { compileToJS } from './compiler.js';
+import { generateHTML } from './template.js';
 
 export function compileFramework(
   sourceCode: string,

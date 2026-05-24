@@ -1,5 +1,5 @@
 import { Parser } from 'htmlparser2';
-import { DOMNode } from './types';
+import { DOMNode } from './types.js';
 
 export function parseHTML(htmlInput: string): DOMNode[] {
   const root: DOMNode[] = [];
@@ -32,7 +32,7 @@ export function parseHTML(htmlInput: string): DOMNode[] {
         stack.pop();
       },
     },
-    { decodeEntities: true, lowerCaseTags: false },
+    { decodeEntities: true, lowerCaseTags: false, recognizeSelfClosing: true },
   );
 
   parser.write(htmlInput);
